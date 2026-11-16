@@ -1,0 +1,2 @@
+entrypoint = "server.js"
+run = "python3 -m venv .venv && .venv/bin/python -m pip install --disable-pip-version-check -r requirements.txt && PYTHON=.venv/bin/python npm start"

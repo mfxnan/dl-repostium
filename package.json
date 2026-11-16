@@ -1,0 +1,9 @@
+{
+  "name": "dl-repostium",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Downloader media dengan backend yt-dlp",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
