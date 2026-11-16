@@ -21,6 +21,6 @@ Instagram kadang meminta login atau memblokir pengambilan media, termasuk untuk 
 
 1. Unggah `dl-repostium-replit.zip` saat membuat Repl baru dari ZIP.
 2. Tunggu proses setup pertama selesai; konfigurasi Replit membuat virtualenv dan memasang `requirements.txt`.
-3. Tekan **Run**. Server memakai port yang disediakan Replit.
+3. Tekan **Run** untuk menjalankan Repl atau gunakan **Publish** untuk membuat deployment Autoscale.
 
-`replit.nix` menyediakan Node.js dan Python. Jangan menghapus `.replit` atau `replit.nix`; keduanya mengatur runtime dan perintah start. Repl yang dipublikasikan dapat menerima request dari siapa saja, jadi perhatikan batas penggunaan serta biaya resource.
+`replit.nix` menyediakan Node.js dan Python. Konfigurasi deployment memasang dependensi saat build dan menjalankan server dengan interpreter virtualenv. Jangan menghapus `.replit` atau `replit.nix`; keduanya mengatur runtime, port web, dan perintah deploy. Repl yang dipublikasikan dapat menerima request dari siapa saja, jadi perhatikan batas penggunaan serta biaya resource.
