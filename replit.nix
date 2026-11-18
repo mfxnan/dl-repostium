@@ -1,6 +1,6 @@
 { pkgs }: {
   deps = [
-    pkgs.nodejs-lts
-    (pkgs.python311.withPackages (ps: [ ps.pip ]))
+    pkgs.nodejs
+    (pkgs.python3.withPackages (ps: [ ps.pip ]))
   ];
 }
